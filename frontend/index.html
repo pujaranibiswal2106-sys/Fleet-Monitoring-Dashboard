@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Fleet Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Fleet Monitoring Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Trips</h3>
+<p id="trips">0</p>
+</div>
+
+<div class="card">
+<h3>Live Drivers</h3>
+<p id="drivers">0</p>
+</div>
+
+<div class="card">
+<h3>Violations</h3>
+<p id="violations">0</p>
+</div>
+
+<div class="card">
+<h3>Risk Score</h3>
+<p id="risk">0</p>
+</div>
+
+</div>
+<div id="alertBox" class="alertBox"></div>
+
+<h2>Dashcam Feed</h2>
+
+
+
+<video width="600" controls autoplay muted loop>
+  <source src="dashcam.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
